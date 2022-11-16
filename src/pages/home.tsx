@@ -1,9 +1,13 @@
 import React from 'react'
-
+import '../css/home.css'
 const home = () => {
+    const logo = require('../IMG_7806.JPG');
+
   return (
+    
     <div>
-        Home
+        
+        <img className='bakgrundsbild' src={logo}/>
 
     </div>
   )
