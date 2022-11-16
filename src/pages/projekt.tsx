@@ -2,7 +2,12 @@ import React from 'react'
 
 const projekt = () => {
   return (
-    <div>projekt</div>
+    <div>
+        <section>
+            <h1 className='titel'>James Adolfsson</h1>
+        </section>
+        projekt
+    </div>
   )
 }
 

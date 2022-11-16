@@ -6,15 +6,17 @@ import Ommig from './pages/ommig';
 import Projekt from './pages/projekt';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import Navbar from './components/navbar';
+import Colortheme from './components/colortheme';
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar/>
+        <Colortheme/>
         <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/kontakt' element={<Kontakt/>}/>
-            <Route path='/omming' element={<Ommig/>}/>
+            <Route path='/ommig' element={<Ommig/>}/>
             <Route path='/projekt' element={<Projekt/>}/>
         </Routes>
 

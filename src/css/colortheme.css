@@ -1,0 +1,28 @@
+.dark {
+    background-color: #333;
+    color: #fff
+}
+.light {
+    background-color: #fff;
+    color: #333;
+}
+.theme-btn {
+    width:150px;
+    height: 50px;
+    float: left;
+    border: none;
+    background-color: rgb(172, 172, 172);
+    color:#fff;
+    border-radius: 4px;
+    cursor:pointer;
+    font-family: 'Economica', sans-serif;
+    font-size: 150%;
+}
+.theme-btn:hover {
+    transition:0.7s;
+    background: linear-gradient(
+        45deg,
+        rgba(8, 33, 104, 0.685) 60%,
+        rgb(172, 172, 172) 100%
+        );
+}

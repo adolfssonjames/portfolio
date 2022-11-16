@@ -5,9 +5,11 @@ const home = () => {
 
   return (
     
-    <div>
-        
-        <img className='bakgrundsbild' src={logo}/>
+    <div className='main'>
+        <section>
+            <h1 className='titel'>James Adolfsson</h1>
+        </section>
+        <img className='bild' src={logo}/>
 
     </div>
   )

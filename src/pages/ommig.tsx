@@ -3,8 +3,10 @@ import React from 'react'
 const ommig = () => {
   return (
     <div>
-        ommig wtf
-        
+         <section>
+            <h1 className='titel'>James Adolfsson</h1>
+        </section>
+        ommig
     </div>
   )
 }
