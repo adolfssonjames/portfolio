@@ -1,19 +1,13 @@
 .titel{
- font-weight: 200;
- font-size:300%;
- font-family: 'Economica', sans-serif;
- 
-
- 
+    font-weight: 200;
+    font-size:300%;
+    font-family: 'Economica', sans-serif;
 }
-
 .bild {
-    
-    width: 45%;
-    height:700px;
+    width: 35%;
+    height:550px;
     border-radius: 100%;
-    
-    
+    margin-right:100px;
     position: relative;
     float:right;
 }
