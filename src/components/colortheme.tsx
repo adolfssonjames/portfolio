@@ -3,12 +3,12 @@ import '../css/colortheme.css';
 
 const Colortheme = () => {
 
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState('dark');
     const toggleTheme = () => {
-        if (theme ==='light') {
-            setTheme ('dark');
-        } else {
+        if (theme ==='dark') {
             setTheme ('light');
+        } else {
+            setTheme ('dark');
         }
     }
     useEffect(() => {
